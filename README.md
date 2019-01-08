@@ -4,6 +4,11 @@ Classification of  images between two class cat and dog  using CNN with image au
 We are using image augmentation to increase the amount of training data using augmentation by 
 using from keras.preprocessing.image import ImageDataGenerator.
 
+Accuracy we achived : 77-78 %
+*We achieved 90-91 % percent accuracy by  Transfer Learning using VGG Model.If interested 
+refer :https://github.com/VikasSinghBhadouria/Image-Classification-using-VGG-transfer-learning/tree/master
+*
+
 Data is very limited and costly in some cases such as medical imagery.
 To get the best out of it , we are using ImageDataGenerator and creating multiple images  for each image we have in our training data set by rotation ,zoon in , shearing , tilting ,rescaling.
 
